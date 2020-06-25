@@ -1,5 +1,13 @@
 # contentful-typescript-codegen
 
+## THIS IS A FORK
+This fork includes support for prefix and suffix via the following commands:
+- `--prefix STR,  -P  Define prefix STR for types, defaults to 'I'`
+- `--suffix STR,  -S  Define suffix STR for types, defaults to empty string`
+- `--no-prefix,   -nP Disable prefix completely`
+- `--no-suffix,   -nS Disable suffix completely`
+
+## Introduction
 Generate typings from your Contentful environment.
 
 - Content Types become interfaces.
